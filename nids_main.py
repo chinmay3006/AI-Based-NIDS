@@ -63,7 +63,7 @@ col1, col2 = st.columns([2, 1])
 
 with col1:
     st.subheader("📊 Network Traffic Data (Preview)")
-    st.dataframe(df.head(10))
+    st.dataframe(df.head(30))
     
     st.subheader("📈 Traffic Distribution")
     fig, ax = plt.subplots()
@@ -96,4 +96,5 @@ with col2:
 
 # --- 6. FOOTER ---
 st.markdown("---")
+
 st.caption("AI-Based NIDS Project | VOIS Internship | Developed by Chinmay Patil")
